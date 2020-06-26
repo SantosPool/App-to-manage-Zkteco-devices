@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZKTECO.TM.Database\ZKTECO.TM.Database.csproj" />
+    <ProjectReference Include="..\ZKTECO.TM.Entities.Dtos\ZKTECO.TM.Entities.Dtos.csproj" />
+    <ProjectReference Include="..\ZKTECO.TM.Entities\ZKTECO.TM.Entities.csproj" />
+    <ProjectReference Include="..\ZKTECO.TM.Utilities\ZKTECO.TM.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
